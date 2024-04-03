@@ -2,24 +2,15 @@
 <h1>Recipe App</h1>
 <p>This is a Recipe App made with React using the Spoonacular API.</p>
 
-<p>
-  <a href="#preview">Preview</a> •
-  <a href="#features">Features</a> •
-  <a href="#prerequisites">Prerequisites</a> •
-  <a href="#running-the-application">Running The Application</a> •
-  <a href="#technologies">Technologies</a>
-</p>
-</div>
-
 ---
 
 # Preview
-<a href="https://kaykyls-recipe-app.netlify.app/"><img height="400px" width="400px" src="https://kaykyls.github.io/img/recipe-app.png"/></a>
+![image](https://github.com/itsaman123/recipe-app/assets/84653396/f997ca27-a234-40cc-b9d0-2df99ceeecb5)
+
 
 # Features
 - [x] Search recipes by category
 - [x] Search recipe by name
-- [x] View recipe image and name
 - [x] View recipe instructions and ingredients
 
 # Prerequisites
@@ -31,7 +22,7 @@ Make sure you have installed all of the following prerequisites:
 # Running The Application
 ```bash
 # Clone the repository
-git clone https://github.com/kaykyls/recipe-app.git
+git clone <repo-link>
 
 # Select the project directory
 cd recipe-app
@@ -47,6 +38,4 @@ npm start
 - React
 - CSS
 
-https://chat-app-kaykyls.vercel.app/
----
-Made by: kaykyls 👋 [Check out my linkedIn!](https://www.linkedin.com/in/devkayky)
+##### Demo: [https://virtual-food-recipe-application.netlify.app/](https://virtual-food-recipe-application.netlify.app/)
