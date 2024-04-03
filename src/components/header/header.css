@@ -1,0 +1,119 @@
+.header-wrapper {
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+
+.header {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-links a, .nav-links {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+.cuisines-btn {
+    position: relative;
+}
+
+.cuisines-dropdown {
+    position: absolute;
+    top: 2rem;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+    min-width: 100%;
+}
+
+.cuisines-dropdown li {
+    padding: 1rem;
+    display: flex;
+}
+
+.cuisines-dropdown li a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 9999;
+    display: none;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .hamburger-is-active {
+        transform: translateX(0) !important;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        gap: 2rem;
+        transform: translateX(-100%);
+        transition: all .3s ease-in-out;
+    }
+
+    .close {
+        display: flex;
+    }
+
+    .header-wrapper {
+        padding: 1.5rem 0;
+    }
+
+    .hamburger  {
+        display: flex;
+    }
+
+    .cuisines-dropdown {
+        top: 8rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 0;
+        box-shadow: none;
+        z-index: 999;
+    }
+}
